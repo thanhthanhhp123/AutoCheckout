@@ -323,9 +323,9 @@ def main():
                        help='Source: "camera" or path to video file')
     parser.add_argument('--camera-id', type=int, default=0,
                        help='Camera ID (default: 0)')
-    parser.add_argument('--model', type=str, default='yolov8n.pt',
+    parser.add_argument('--model', type=str, default=r'weights\best.pt',
                        help='YOLOv8 model path')
-    parser.add_argument('--confidence', type=float, default=0.5,
+    parser.add_argument('--confidence', type=float, default=0.7,
                        help='Confidence threshold')
     parser.add_argument('--crops-dir', type=str, default='crops',
                        help='Directory to save cropped images')

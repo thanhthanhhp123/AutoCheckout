@@ -4,3 +4,6 @@
 /database
 /weights
 /videos
+/weights
+/features
+__pycache__
